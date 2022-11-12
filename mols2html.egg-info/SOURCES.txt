@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+./mols2html/__init__.py
+./mols2html/mostrador.py
+mols2html.egg-info/PKG-INFO
+mols2html.egg-info/SOURCES.txt
+mols2html.egg-info/dependency_links.txt
+mols2html.egg-info/requires.txt
+mols2html.egg-info/top_level.txt
