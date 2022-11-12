@@ -23,7 +23,7 @@ class Mostrador():
     def __init__(self) -> None:
         """Construtor"""
         self.data = None
-        self.tempdir = os.path.join(package_dir, "\\mols2html\\temp", str(int(time.time())))
+        self.tempdir = os.path.join(package_dir, "mols2html", "temp", str(int(time.time())))
         os.makedirs(self.tempdir)
 
 
@@ -78,12 +78,12 @@ class Mostrador():
         print("A renderizar index.html...")
 
         #preencher html
-        with open(os.path.join(package_dir, "\\mols2html\\index.html"), "r") as template_file:
+        with open(os.path.join(package_dir, "mols2html", "index.html"), "r") as template_file:
             template = bs(template_file, "html.parser")
         
         template.title.string = name
         
-        with open(os.path.join(package_dir, "\\mols2html\\cartao_molecula_elemento.html"), "r") as elemento_molecula:
+        with open(os.path.join(package_dir, "mols2html", "cartao_molecula_elemento.html"), "r") as elemento_molecula:
             e_molecula = bs(elemento_molecula, "html.parser")
 
         div_moleculas = template.find(id="div-moleculas")
