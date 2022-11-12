@@ -23,7 +23,7 @@ class Mostrador():
     def __init__(self) -> None:
         """Construtor"""
         self.data = None
-        self.tempdir = os.path.join(package_dir, "/mols2html/temp", str(int(time.time())))
+        self.tempdir = os.path.join(package_dir, "\\mols2html\\temp", str(int(time.time())))
         os.makedirs(self.tempdir)
 
 
