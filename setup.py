@@ -5,8 +5,9 @@ setup(
     version='1.0.0',
     author='Raul Sofia',
     author_email='rauljcsofia.com',
-    packages=find_packages(where="."),
+    packages=find_packages(where="mols2html"),
     scripts=[],
+    package_dir={"": "mols2html"},
     include_package_data=True,
     url='https://github.com/RaulSofia/mols2html',
     license='LICENSE.txt',
@@ -20,5 +21,5 @@ setup(
         "setuptools",
         "tqdm",
     ]
-    
+
 )
