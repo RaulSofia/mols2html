@@ -2,10 +2,10 @@ from setuptools import find_packages, setup
 
 setup(
     name='mols2html',
-    version='1.0.3',
+    version='1.0.4',
     author='Raul Sofia',
     author_email='rauljcsofia.com',
-    packages=["mols2html/mols2html", "mols2html"],
+    packages=["mols2html"],
     scripts=[],
     package_dir={"": "mols2html"},
     include_package_data=True,
