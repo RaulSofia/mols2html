@@ -13,12 +13,12 @@ setup(
     long_description=open('README.md').read(),
     # packages = find_packages(),
     install_requires=[
-        "beautifulsoup4"
-        "numpy"
-        "pandas"
-        "rdkit"
-        "setuptools"
-        "tqdm"
+        "beautifulsoup4",
+        "numpy",
+        "pandas",
+        "rdkit",
+        "setuptools",
+        "tqdm",
     ]
     
 )
