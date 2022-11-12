@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
 setup(
     name='mols2html',
@@ -11,6 +11,7 @@ setup(
     license='LICENSE.txt',
     description='Pacote que permite gerar paginas html a partir de dataframes de moleculas, apresentar as suas propriedades, selecionar e descarregar em varios formatos, para acompanhar e apresentar resultados de variados modelos moleculares, sempre em grande estilo, com o visual ChEMBL.',
     long_description=open('README.txt').read(),
+    packages = find_packages(),
     install_requires=[
         "beautifulsoup4"
         "numpy"
