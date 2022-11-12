@@ -164,7 +164,7 @@ class Mostrador():
 
 if __name__ == '__main__': #EXEMPLO
     disp = Mostrador() #cria um objeto
-    data = pd.read_csv("./test_dataset.csv", sep=";") #le um ficheiro csv para pd.DataFrame
+    data = pd.read_csv("./scripts/test_dataset.csv", sep=";") #le um ficheiro csv para pd.DataFrame
     disp.add(data, subtitle="AlogP") #armazena os conteudos da pd.DataFrame fornecida no objeto
     disp.add(data, subtitle=["AlogP", "Molecular Weight", "Aromatic Rings"]) #mesma coisa, mesmo dataset, para demonstrar que os dados podem ser repetidos, mas cada cartão mostrar campos diferentes
     # disp.add(data)
