@@ -2,12 +2,12 @@ from setuptools import find_packages, setup
 
 setup(
     name='mols2html',
-    version='1.0.10',
+    version='1.0.11',
     author='Raul Sofia',
     author_email='rauljcsofia.com',
     packages=["mols2html"],
     scripts=[],
-    package_dir={"": "."},
+    package_dir={"": "index.html"},
     include_package_data=True,
     url='https://github.com/RaulSofia/mols2html',
     license='LICENSE.txt',
