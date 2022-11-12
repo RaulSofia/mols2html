@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='mols2html',
-    version='1.0.9',
+    version='1.0.10',
     author='Raul Sofia',
     author_email='rauljcsofia.com',
     packages=["mols2html"],
