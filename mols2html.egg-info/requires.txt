@@ -1,6 +1,0 @@
-beautifulsoup4
-numpy
-pandas
-rdkit
-setuptools
-tqdm
